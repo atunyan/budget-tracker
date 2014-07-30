@@ -1,0 +1,19 @@
+<map id="G" name="G">
+<area shape="rect" href="$_date_picker_view_controller_8h.html" title="DatePickerViewController.h" alt="" coords="1350,232,1534,258" />
+<area shape="rect" href="$_expense_view_controller_8h.html" title="ExpenseViewController.h" alt="" coords="860,82,1030,109" />
+<area shape="rect" href="$_transfer_view_controller_8h.html" title="TransferViewController.h" alt="" coords="861,157,1029,184" />
+<area shape="rect" href="$_categories_list_view_controller_8h.html" title="CategoriesListViewController.h" alt="" coords="1542,157,1745,184" />
+<area shape="rect" href="$_m_o_category_8h.html" title="MOCategory.h" alt="" coords="77,381,184,408" />
+<area shape="rect" href="$_location_info_8h.html" title="LocationInfo.h" alt="" coords="154,232,258,258" />
+<area shape="rect" href="$_map_view_controller_8h.html" title="MapViewController.h" alt="" coords="873,232,1017,258" />
+<area shape="rect" href="$_accounts_list_table_view_controller_8h.html" title="AccountsListTableViewController.h" alt="" coords="625,232,849,258" />
+<area shape="rect" href="$_transfer_protocols_8h.html" title="TransferProtocols.h" alt="" coords="536,381,672,408" />
+<area shape="rect" href="$_m_o_account_8h.html" title="MOAccount.h" alt="" coords="328,306,429,333" />
+<area shape="rect" href="$_data_picker_view_controller_8h.html" title="DataPickerViewController.h" alt="" coords="1092,232,1276,258" />
+<area shape="rect" href="$_m_o_outcome_8h.html" title="MOOutcome.h" alt="" coords="453,306,560,333" />
+<area shape="rect" href="$_m_o_transfer_8h.html" title="MOTransfer.h" alt="" coords="360,381,461,408" />
+<area shape="rect" href="$_transfer_list_view_controller_8h.html" title="TransferListViewController.h" alt="" coords="634,306,821,333" />
+<area shape="rect" href="$_transfer_data_source_8h_source.html" title="TransferDataSource.h" alt="" coords="696,381,848,408" />
+<area shape="rect" href="$_category_view_controller_8h.html" title="CategoryViewController.h" alt="" coords="1558,232,1729,258" />
+<area shape="rect" href="$_icon_picker_8h.html" title="IconPicker.h" alt="" coords="1570,306,1664,333" />
+</map>

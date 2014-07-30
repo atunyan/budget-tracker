@@ -1,0 +1,23 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{AccountViewController\n||}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node2 [label="{TransferViewController\n|+ delegate\l+ initialDate\l+ selectedDate\l+ transferViewModeType\l+ isInEditMode\l# currentMO\l# originX\l# originY\l# transferScrollView\l# scrollingUpHeight\l# scrollingDownHeight\l# reminderInfo\l# curAccount\l# didAccountSelected\l# isOpenedFromCalendar\l# isNameBusy\l# currentTextField\l# currentTextView\l|+ initWithTransfer:\l+ createMainFieldsForm:name:notes::dateName:accountName:\l+ createFieldTitleWithOriginY:withString:tag:\l+ createEditSaveBarButton:\l+ showMessageAlert:\l+ createRecurringFormWithRecurring:\l+ createPeriodFormWithRecurring:withPeriodicity:withEndDate:\l+ createDeleteButton\l+ openDataPickerViewWithPeriodicity:withEndDate:withStartDate:\l+ createAccountTypeField\l+ isEnabled\l+ saveTransfer\l+ resignTextFields\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interface_transfer_view_controller.html",tooltip="TransferViewController class. This class is responsible for creating/adding the main fields of paymen..."];
+  Node3 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node3 [label="{\<DatePickerViewControllerDelegate\>\n||+ datePickerControllerDidSave:\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$protocol_date_picker_view_controller_delegate-p.html",tooltip="the DatePickerViewControllerDelegate. Responsible for date selection."];
+  Node4 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node4 [label="{\<LocationControllerDelegate\>\n||+ didSelectLocation:\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$protocol_location_controller_delegate-p.html",tooltip="delegate for location functionalities"];
+  Node5 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node5 [label="{\<DataPickerViewControllerDelegate\>\n||+ didSavedWithPeriodicity:andWithEndDate:\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$protocol_data_picker_view_controller_delegate-p.html",tooltip="the DataPickerViewControllerDelegate. Responsible for date selection."];
+  Node6 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node6 [label="{\<AccountsListTableViewControllerDelegate\>\n||+ didSelectAccount:\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$protocol_accounts_list_table_view_controller_delegate-p.html",tooltip="the AccountsListTableViewControllerDelegate."];
+  Node7 -> Node2 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="reminderInfo",arrowtail="open",fontname="Helvetica"];
+  Node7 [label="{ReminderInfo\n|+ reminderTime\l+ periodicity\l+ endDateTime\l|+ possiblePeriods\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interface_reminder_info.html",tooltip="The class contains the info on Reminder, such as reminder time, whether alerts and/or budgets should ..."];
+  Node8 -> Node2 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="currentMO",arrowtail="open",fontname="Helvetica"];
+  Node8 [label="{MOTransfer\n|+ amount\l+ dateTime\l+ location\l+ name\l+ moDescription\l+ endDate\l+ isRecurring\l+ periodicity\l+ recurrings\l+ account\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interface_m_o_transfer.html",tooltip="Used as parent class for income, payment, account managed objects."];
+  Node9 -> Node2 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="curAccount",arrowtail="open",fontname="Helvetica"];
+  Node9 [label="{MOAccount\n|+ type\l+ initialAmount\l+ user\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interface_m_o_account.html",tooltip="MOAccount class. This class keeps all created accounts."];
+  Node8 -> Node9 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+}

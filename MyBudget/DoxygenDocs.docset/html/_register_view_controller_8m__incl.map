@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" href="$_register_view_controller_8h.html" title="RegisterViewController.h" alt="" coords="130,82,298,109" />
+<area shape="rect" href="$_user_info_8h.html" title="UserInfo.h" alt="" coords="306,157,389,184" />
+<area shape="rect" href="$_constants_8h.html" title="Constants.h" alt="" coords="385,82,475,109" />
+<area shape="rect" href="$_core_data_manager_8h.html" title="CoreDataManager.h" alt="" coords="413,157,554,184" />
+<area shape="rect" href="$_m_o_user_8h.html" title="MOUser.h" alt="" coords="551,82,631,109" />
+<area shape="rect" href="$_registration_delegate_8h.html" title="RegistrationDelegate.h" alt="" coords="125,157,282,184" />
+<area shape="rect" href="$_m_o_setting_8h.html" title="MOSetting.h" alt="" coords="629,157,725,184" />
+</map>

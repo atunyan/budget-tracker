@@ -1,0 +1,17 @@
+<map id="G" name="G">
+<area shape="rect" href="$_categories_list_view_controller_8h.html" title="MyBudget/CategoriesListViewController.h" alt="" coords="1313,82,1580,109" />
+<area shape="rect" href="$_search_table_view_controller_8m.html" title="MyBudget/SearchTableViewController.m" alt="" coords="1701,306,1960,333" />
+<area shape="rect" href="$_category_view_controller_8m.html" title="MyBudget/CategoryViewController.m" alt="" coords="1793,82,2033,109" />
+<area shape="rect" href="$_expense_view_controller_8h.html" title="MyBudget/ExpenseViewController.h" alt="" coords="1330,157,1562,183" />
+<area shape="rect" href="$_outcome_view_controller_8m.html" title="MyBudget/OutcomeViewController.m" alt="" coords="1984,306,2224,333" />
+<area shape="rect" href="$_bill_view_controller_8m.html" title="MyBudget/BillViewController.m" alt="" coords="8,306,210,333" />
+<area shape="rect" href="$_categories_list_view_controller_8m.html" title="MyBudget/CategoriesListViewController.m" alt="" coords="1037,157,1306,183" />
+<area shape="rect" href="$_outcome_view_controller_8h.html" title="MyBudget/OutcomeViewController.h" alt="" coords="1410,231,1645,258" />
+<area shape="rect" href="$_bill_view_controller_8h.html" title="MyBudget/BillViewController.h" alt="" coords="810,231,1010,258" />
+<area shape="rect" href="$_expense_view_controller_8m.html" title="MyBudget/ExpenseViewController.m" alt="" coords="1149,231,1386,258" />
+<area shape="rect" href="$_account_detail_view_controller_8m.html" title="MyBudget/AccountDetailViewController.m" alt="" coords="1088,306,1354,333" />
+<area shape="rect" href="$_outcomes_list_table_view_controller_8m.html" title="MyBudget/OutcomesListTableViewController.m" alt="" coords="1378,306,1677,333" />
+<area shape="rect" href="$_transaction_list_table_view_controller_8m.html" title="MyBudget/TransactionListTableViewController.m" alt="" coords="757,306,1064,333" />
+<area shape="rect" href="$_bills_list_view_controller_8m.html" title="MyBudget/BillsListViewController.m" alt="" coords="234,306,464,333" />
+<area shape="rect" href="$_my_budget_view_controller_8m.html" title="MyBudget/MyBudgetViewController.m" alt="" coords="488,306,733,333" />
+</map>

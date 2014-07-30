@@ -1,0 +1,30 @@
+<map id="G" name="G">
+<area shape="rect" href="$_my_budget_app_delegate_8h.html" title="MyBudgetAppDelegate.h" alt="" coords="264,232,432,258" />
+<area shape="rect" href="$_my_budget_view_controller_8h.html" title="MyBudgetViewController.h" alt="" coords="430,82,609,109" />
+<area shape="rect" href="$_login_table_view_controller_8h.html" title="LoginTableViewController.h" alt="" coords="778,157,960,184" />
+<area shape="rect" href="$_constants_8h.html" title="Constants.h" alt="" coords="2557,82,2648,109" />
+<area shape="rect" href="$_m_o_user_8h.html" title="MOUser.h" alt="" coords="2402,232,2482,258" />
+<area shape="rect" href="$_m_o_bill_8h.html" title="MOBill.h" alt="" coords="2306,232,2378,258" />
+<area shape="rect" href="$_m_o_income_8h.html" title="MOIncome.h" alt="" coords="2186,232,2282,258" />
+<area shape="rect" href="$_m_o_recurrence_8h.html" title="MORecurrence.h" alt="" coords="2644,306,2766,333" />
+<area shape="rect" href="$_core_data_manager_8h.html" title="CoreDataManager.h" alt="" coords="2066,82,2208,109" />
+<area shape="rect" href="$_transfer_view_controller_8h.html" title="TransferViewController.h" alt="" coords="1582,82,1750,109" />
+<area shape="rect" href="$_m_o_transfer_8h.html" title="MOTransfer.h" alt="" coords="2044,306,2145,333" />
+<area shape="rect" href="$_home_buttons_view_controller_8h.html" title="HomeButtonsViewController.h" alt="" coords="557,157,754,184" />
+<area shape="rect" href="$_custom_page_control_8h.html" title="CustomPageControl.h" alt="" coords="330,157,482,184" />
+<area shape="rect" href="$_settings_table_view_controller_8h.html" title="SettingsTableViewController.h" alt="" coords="8,157,205,184" />
+<area shape="rect" href="$_register_view_controller_8h.html" title="RegisterViewController.h" alt="" coords="1277,232,1445,258" />
+<area shape="rect" href="$_user_info_8h.html" title="UserInfo.h" alt="" coords="1340,306,1422,333" />
+<area shape="rect" href="$_registration_delegate_8h.html" title="RegistrationDelegate.h" alt="" coords="1649,306,1806,333" />
+<area shape="rect" href="$_mail_manager_8h.html" title="MailManager.h" alt="" coords="80,232,189,258" />
+<area shape="rect" href="$_m_o_setting_8h.html" title="MOSetting.h" alt="" coords="2422,306,2518,333" />
+<area shape="rect" href="$_date_picker_view_controller_8h.html" title="DatePickerViewController.h" alt="" coords="1034,157,1218,184" />
+<area shape="rect" href="$_map_view_controller_8h.html" title="MapViewController.h" alt="" coords="1698,157,1842,184" />
+<area shape="rect" href="$_accounts_list_table_view_controller_8h.html" title="AccountsListTableViewController.h" alt="" coords="1450,157,1674,184" />
+<area shape="rect" href="$_transfer_protocols_8h.html" title="TransferProtocols.h" alt="" coords="1466,306,1602,333" />
+<area shape="rect" href="$_m_o_account_8h.html" title="MOAccount.h" alt="" coords="2010,232,2112,258" />
+<area shape="rect" href="$_data_picker_view_controller_8h.html" title="DataPickerViewController.h" alt="" coords="1242,157,1426,184" />
+<area shape="rect" href="$_m_o_outcome_8h.html" title="MOOutcome.h" alt="" coords="1880,232,1986,258" />
+<area shape="rect" href="$_transfer_list_view_controller_8h.html" title="TransferListViewController.h" alt="" coords="1066,232,1253,258" />
+<area shape="rect" href="$_transfer_data_source_8h_source.html" title="TransferDataSource.h" alt="" coords="1124,306,1276,333" />
+</map>

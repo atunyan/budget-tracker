@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" href="$interface_contact_us_view_controller.html" title="The class contains the information on how the users can contact to the applications&#39; development team..." alt="" coords="7,200,178,280" />
+<area shape="rect" href="$interface_impressum_view_controller.html" title="The class shows the contact information as well as makes a brief introduction to the company..." alt="" coords="202,200,375,280" />
+<area shape="rect" href="$interface_login_table_view_controller.html" title="The view is responsible for user registration and login." alt="" coords="399,152,570,328" />
+<area shape="rect" href="$interface_my_budget_view_controller.html" title="the class is the main view of the MyBudget project. All the related pages are available from this vie..." alt="" coords="594,200,762,280" />
+<area shape="rect" href="$interface_report_view_controller.html" title="template yet empty" alt="" coords="786,176,933,304" />
+</map>

@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" href="$_column_view_8h.html" title="MyBudget/ColumnView.h" alt="" coords="232,82,402,109" />
+<area shape="rect" href="$_pie_view_8h.html" title="MyBudget/PieView.h" alt="" coords="453,82,597,109" />
+<area shape="rect" href="$_report_view_8h.html" title="MyBudget/ReportView.h" alt="" coords="621,82,784,109" />
+<area shape="rect" href="$_representation_view_8m.html" title="MyBudget/RepresentationView.m" alt="" coords="808,82,1026,109" />
+<area shape="rect" href="$_column_view_8m.html" title="MyBudget/ColumnView.m" alt="" coords="8,157,181,184" />
+<area shape="rect" href="$_report_view_controller_8m.html" title="MyBudget/ReportViewController.m" alt="" coords="205,157,429,184" />
+<area shape="rect" href="$_pie_legends_view_8m.html" title="MyBudget/PieLegendsView.m" alt="" coords="453,157,650,184" />
+<area shape="rect" href="$_pie_view_8m.html" title="MyBudget/PieView.m" alt="" coords="674,157,821,184" />
+<area shape="rect" href="$_report_view_8m.html" title="MyBudget/ReportView.m" alt="" coords="845,157,1013,184" />
+</map>

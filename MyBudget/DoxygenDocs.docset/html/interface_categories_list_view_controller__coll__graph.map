@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" href="$protocol_category_view_controller_delegate-p.html" title="delegate called when user adds new category" alt="" coords="8,64,237,144" />
+<area shape="rect" href="$protocol_category_list_view_controller_delegate-p.html" title="}" alt="" coords="261,64,512,144" />
+<area shape="rect" href="$interface_m_o_category.html" title="The class keeps the properties of Core Data Category, which are describing category, such as category&#39;s index, name." alt="" coords="536,8,690,200" />
+</map>

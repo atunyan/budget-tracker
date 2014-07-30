@@ -1,0 +1,12 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{RepresentationView\n|# report\l|+ updateView\l+ periodMonthNumber\l+ createTitle:\l+ drawPropertyByContext:point:string:\l+ drawLegends:titleArray:\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node2 [label="{ColumnView\n|# legendsTitleArray\l# columnScrollView\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interface_column_view.html",tooltip="Represents report by columns view."];
+  Node1 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node3 [label="{PieView\n|# pieArray\l# legendsScrollView\l|+ colorByIndex:\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interface_pie_view.html",tooltip="Represents report by pie view."];
+  Node1 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node4 [label="{ReportView\n|# zeroPoint\l# factor\l# pointArray\l# yAxisValueArray\l# tagsArray\l# labelTag\l# legendsTitleArray\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interface_report_view.html",tooltip="class for view reports"];
+}

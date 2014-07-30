@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" href="$_categories_list_view_controller_8h.html" title="CategoriesListViewController.h" alt="" coords="8,82,210,109" />
+<area shape="rect" href="$_category_view_cell_8h.html" title="CategoryViewCell.h" alt="" coords="234,82,373,109" />
+<area shape="rect" href="$_m_o_category_8h.html" title="MOCategory.h" alt="" coords="338,157,445,183" />
+<area shape="rect" href="$_constants_8h.html" title="Constants.h" alt="" coords="448,82,538,109" />
+<area shape="rect" href="$_m_o_user_8h.html" title="MOUser.h" alt="" coords="562,82,642,109" />
+<area shape="rect" href="$_core_data_manager_8h.html" title="CoreDataManager.h" alt="" coords="690,157,832,183" />
+<area shape="rect" href="$_category_view_controller_8h.html" title="CategoryViewController.h" alt="" coords="24,157,194,183" />
+<area shape="rect" href="$_icon_picker_8h.html" title="IconPicker.h" alt="" coords="106,231,200,258" />
+<area shape="rect" href="$_m_o_setting_8h.html" title="MOSetting.h" alt="" coords="520,157,616,183" />
+</map>

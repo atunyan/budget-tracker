@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/internal/main/!svn/ver/152687/MyBudget/trunk/MyBudget/Kal/src
+END
+KalLogic.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/internal/main/!svn/ver/151372/MyBudget/trunk/MyBudget/Kal/src/KalLogic.m
+END
+KalPrivate.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/internal/main/!svn/ver/151372/MyBudget/trunk/MyBudget/Kal/src/KalPrivate.h
+END
+KalView.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/internal/main/!svn/ver/151372/MyBudget/trunk/MyBudget/Kal/src/KalView.h
+END
+EventKitDataSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/internal/main/!svn/ver/151372/MyBudget/trunk/MyBudget/Kal/src/EventKitDataSource.h
+END
+KalDate.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/internal/main/!svn/ver/151372/MyBudget/trunk/MyBudget/Kal/src/KalDate.h
+END
+KalViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/internal/main/!svn/ver/151372/MyBudget/trunk/MyBudget/Kal/src/KalViewController.h
+END
+Kal.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/internal/main/!svn/ver/151372/MyBudget/trunk/MyBudget/Kal/src/Kal.h
+END
+KalView.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/internal/main/!svn/ver/151372/MyBudget/trunk/MyBudget/Kal/src/KalView.m
+END
+Kal_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/internal/main/!svn/ver/151372/MyBudget/trunk/MyBudget/Kal/src/Kal_Prefix.pch
+END
+UIViewAdditions.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/internal/main/!svn/ver/151372/MyBudget/trunk/MyBudget/Kal/src/UIViewAdditions.h
+END
+KalMonthView.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/internal/main/!svn/ver/151372/MyBudget/trunk/MyBudget/Kal/src/KalMonthView.h
+END
+KalGridView.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/internal/main/!svn/ver/151372/MyBudget/trunk/MyBudget/Kal/src/KalGridView.h
+END
+EventKitDataSource.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/internal/main/!svn/ver/151372/MyBudget/trunk/MyBudget/Kal/src/EventKitDataSource.m
+END
+KalDate.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/internal/main/!svn/ver/151372/MyBudget/trunk/MyBudget/Kal/src/KalDate.m
+END
+KalViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/internal/main/!svn/ver/151372/MyBudget/trunk/MyBudget/Kal/src/KalViewController.m
+END
+UIViewAdditions.m
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/internal/main/!svn/ver/151372/MyBudget/trunk/MyBudget/Kal/src/UIViewAdditions.m
+END
+KalMonthView.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/internal/main/!svn/ver/151372/MyBudget/trunk/MyBudget/Kal/src/KalMonthView.m
+END
+KalGridView.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/internal/main/!svn/ver/151372/MyBudget/trunk/MyBudget/Kal/src/KalGridView.m
+END
+NSDateAdditions.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/internal/main/!svn/ver/151372/MyBudget/trunk/MyBudget/Kal/src/NSDateAdditions.h
+END
+KalTileView.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/internal/main/!svn/ver/151372/MyBudget/trunk/MyBudget/Kal/src/KalTileView.h
+END
+KalDataSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/internal/main/!svn/ver/151372/MyBudget/trunk/MyBudget/Kal/src/KalDataSource.h
+END
+NSDateAdditions.m
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/internal/main/!svn/ver/151372/MyBudget/trunk/MyBudget/Kal/src/NSDateAdditions.m
+END
+KalLogic.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/internal/main/!svn/ver/151372/MyBudget/trunk/MyBudget/Kal/src/KalLogic.h
+END
+KalTileView.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/internal/main/!svn/ver/152687/MyBudget/trunk/MyBudget/Kal/src/KalTileView.m
+END
+KalDataSource.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/internal/main/!svn/ver/151372/MyBudget/trunk/MyBudget/Kal/src/KalDataSource.m
+END

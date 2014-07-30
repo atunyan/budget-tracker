@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" href="$interface_transfer_view_controller.html" title="TransferViewController class. This class is responsible for creating/adding the main fields of outcom..." alt="" coords="738,426,1149,1082" />
+<area shape="rect" href="$protocol_date_picker_view_controller_delegate-p.html" title="the DatePickerViewControllerDelegate. Responsible for date selection." alt="" coords="8,266,248,346" />
+<area shape="rect" href="$protocol_location_controller_delegate-p.html" title="delegate for location functionalities" alt="" coords="272,266,469,346" />
+<area shape="rect" href="$protocol_data_picker_view_controller_delegate-p.html" title="the DataPickerViewControllerDelegate. Responsible for date selection." alt="" coords="493,266,778,346" />
+<area shape="rect" href="$protocol_accounts_list_table_view_controller_delegate-p.html" title="the AccountsListTableViewControllerDelegate." alt="" coords="802,266,1085,346" />
+<area shape="rect" href="$interface_reminder_info.html" title="The class contains the info on Reminder, such as reminder time, whether alerts and/or budgets should ..." alt="" coords="1109,250,1256,362" />
+<area shape="rect" href="$interface_m_o_transfer.html" title="Used as parent class for income, outcome, bill, account managed objects." alt="" coords="1293,7,1410,199" />
+<area shape="rect" href="$interface_m_o_account.html" title="MOAccount class. This class keeps all created accounts." alt="" coords="1390,250,1500,362" />
+</map>

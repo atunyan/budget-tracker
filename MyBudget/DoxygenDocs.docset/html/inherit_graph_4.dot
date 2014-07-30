@@ -1,0 +1,17 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="\<TransferViewControllerDelegate\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$protocol_transfer_view_controller_delegate-p.html",tooltip="handles operations within transfer view controller"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="TransferListViewController",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interface_transfer_list_view_controller.html",tooltip="This is parent class for payment/income lists."];
+  Node2 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AccountsListTableViewController",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interface_accounts_list_table_view_controller.html",tooltip="AccountListTableViewController class is responsible for displaying and removing accounts list..."];
+  Node2 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="RecurranceListViewController",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interface_recurrance_list_view_controller.html",tooltip="Used for showing list view and calendar for recurring objects."];
+  Node4 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="IncomesListTableViewController",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interface_incomes_list_table_view_controller.html",tooltip="IncomesListTableViewController class. This class is responsible for displaying all incomes..."];
+  Node4 -> Node6 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="PaymentsListViewController",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interface_payments_list_view_controller.html",tooltip="The class is used to display the list of payments both in the list view and calendar view..."];
+}

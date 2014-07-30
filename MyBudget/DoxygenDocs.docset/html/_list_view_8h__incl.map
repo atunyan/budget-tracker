@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" href="$_m_o_income_8h.html" title="MOIncome.h" alt="" coords="62,82,158,109" />
+<area shape="rect" href="$_m_o_outcome_8h.html" title="MOOutcome.h" alt="" coords="182,82,289,109" />
+<area shape="rect" href="$_m_o_bill_8h.html" title="MOBill.h" alt="" coords="313,82,385,109" />
+<area shape="rect" href="$_m_o_account_8h.html" title="MOAccount.h" alt="" coords="409,82,510,109" />
+<area shape="rect" href="$_m_o_transfer_8h.html" title="MOTransfer.h" alt="" coords="210,157,311,184" />
+</map>

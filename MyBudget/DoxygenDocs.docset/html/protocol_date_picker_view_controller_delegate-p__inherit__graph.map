@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" href="$interface_bill_view_controller.html" title="BillViewController class. This class is responsible for adding/changeing new bill. After creating new bill,the created bill displays on BillsListViewController." alt="" coords="33,1048,308,1128" />
+<area shape="rect" href="$interface_search_table_view_controller.html" title="Search TableView class is responsible for searching any item from the available list. It is possible to perform search only in one bean (e.g. income, outcome) and in all the beans." alt="" coords="141,376,322,552" />
+<area shape="rect" href="$interface_transfer_view_controller.html" title="TransferViewController class. This class is responsible for creating/adding the main fields of outcom..." alt="" coords="346,136,757,792" />
+<area shape="rect" href="$interface_account_view_controller.html" title="AccountViewController class is responsibel for adding new account or editing the existed account..." alt="" coords="216,880,370,960" />
+<area shape="rect" href="$interface_expense_view_controller.html" title="This class is responsible for creating/adding the main fields of outcome/bill." alt="" coords="394,840,560,1000" />
+<area shape="rect" href="$interface_income_view_controller.html" title="IncomeViewController class. This class is responsible for creating/adding new income. After creatin new income, the created income displays on IncomesListTableViewController." alt="" coords="584,880,858,960" />
+<area shape="rect" href="$interface_outcome_view_controller.html" title="OutcomeViewController class. This class is responsible for adding/changeing new outcome. After creating new outcome,the created outcome displays on OutcomesListTableViewController." alt="" coords="397,1048,557,1128" />
+</map>

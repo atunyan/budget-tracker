@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" href="$interface_transfer_view_controller.html" title="TransferViewController class. This class is responsible for creating/adding the main fields of outcom..." alt="" coords="64,136,474,792" />
+<area shape="rect" href="$interface_account_view_controller.html" title="AccountViewController class is responsibel for adding new account or editing the existed account..." alt="" coords="8,880,162,960" />
+<area shape="rect" href="$interface_expense_view_controller.html" title="This class is responsible for creating/adding the main fields of outcome/bill." alt="" coords="186,840,352,1000" />
+<area shape="rect" href="$interface_income_view_controller.html" title="IncomeViewController class. This class is responsible for creating/adding new income. After creatin new income, the created income displays on IncomesListTableViewController." alt="" coords="376,880,650,960" />
+<area shape="rect" href="$interface_bill_view_controller.html" title="BillViewController class. This class is responsible for adding/changeing new bill. After creating new bill,the created bill displays on BillsListViewController." alt="" coords="10,1048,285,1128" />
+<area shape="rect" href="$interface_outcome_view_controller.html" title="OutcomeViewController class. This class is responsible for adding/changeing new outcome. After creating new outcome,the created outcome displays on OutcomesListTableViewController." alt="" coords="309,1048,469,1128" />
+</map>

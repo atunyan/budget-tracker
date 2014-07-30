@@ -1,0 +1,25 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="MyBudget/LoginViewController.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="MyBudget/IncomesListTableViewController.m",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_incomes_list_table_view_controller_8m.html"];
+  Node1 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="MyBudget/LoginViewController.m",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_login_view_controller_8m.html"];
+  Node1 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="MyBudget/MyBudgetViewController.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_my_budget_view_controller_8h.html"];
+  Node4 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="MyBudget/MyBudgetAppDelegate.m",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_my_budget_app_delegate_8m.html"];
+  Node4 -> Node6 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="MyBudget/MyBudgetViewController.m",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_my_budget_view_controller_8m.html"];
+  Node1 -> Node7 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="MyBudget/SettingsTableViewController.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_settings_table_view_controller_8h.html"];
+  Node7 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node8 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="MyBudget/SettingsTableViewController.m",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_settings_table_view_controller_8m.html"];
+  Node1 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="MyBudget/PaymentsListViewController.m",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_payments_list_view_controller_8m.html"];
+}

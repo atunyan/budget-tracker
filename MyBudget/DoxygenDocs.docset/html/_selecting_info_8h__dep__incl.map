@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" href="$_currency_info_8h.html" title="MyBudget/Models/CurrencyInfo.h" alt="" coords="305,82,524,109" />
+<area shape="rect" href="$_selecting_info_8m.html" title="MyBudget/Models/SelectingInfo.m" alt="" coords="548,82,772,109" />
+<area shape="rect" href="$_selecting_table_view_controller_8m.html" title="MyBudget/SelectingTableViewController.m" alt="" coords="796,82,1068,109" />
+<area shape="rect" href="$_currency_table_view_controller_8m.html" title="MyBudget/CurrencyTableViewController.m" alt="" coords="8,157,280,184" />
+<area shape="rect" href="$_currency_info_8m.html" title="MyBudget/Models/CurrencyInfo.m" alt="" coords="304,157,525,184" />
+<area shape="rect" href="$_settings_table_view_controller_8m.html" title="MyBudget/SettingsTableViewController.m" alt="" coords="549,157,813,184" />
+</map>

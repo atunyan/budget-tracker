@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1171" systemVersion="11D50" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="MOAccount" representedClassName="MOAccount" parentEntity="MOTransfer">
+        <attribute name="initialAmount" optional="YES" attributeType="Double" defaultValueString="0.0"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <relationship name="accountTransfer" toMany="YES" minCount="1" deletionRule="Nullify" destinationEntity="MOTransfer" inverseName="account" inverseEntity="MOTransfer" syncable="YES"/>
+        <relationship name="user" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="MOUser" inverseName="accounts" inverseEntity="MOUser"/>
+    </entity>
+    <entity name="MOCategory" representedClassName="MOCategory">
+        <attribute name="categoryImageName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="categoryIndex" optional="YES" attributeType="Integer 32" defaultValueString="0"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="Integer 32" defaultValueString="0"/>
+        <relationship name="categoryPayment" optional="YES" toMany="YES" minCount="1" deletionRule="Nullify" destinationEntity="MOPayment" inverseName="category" inverseEntity="MOPayment" syncable="YES"/>
+        <relationship name="parentCategory" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="MOCategory" inverseName="subCategories" inverseEntity="MOCategory"/>
+        <relationship name="subCategories" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="MOCategory" inverseName="parentCategory" inverseEntity="MOCategory"/>
+        <relationship name="user" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="MOUser" inverseName="categories" inverseEntity="MOUser"/>
+    </entity>
+    <entity name="MOIncome" representedClassName="MOIncome" parentEntity="MOTransfer">
+        <relationship name="user" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="MOUser" inverseName="incomes" inverseEntity="MOUser"/>
+    </entity>
+    <entity name="MOPayment" representedClassName="MOPayment" parentEntity="MOTransfer">
+        <attribute name="fireDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="category" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="MOCategory" inverseName="categoryPayment" inverseEntity="MOCategory" syncable="YES"/>
+        <relationship name="user" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="MOUser" inverseName="payments" inverseEntity="MOUser"/>
+    </entity>
+    <entity name="MORecurrence" representedClassName="MORecurrence">
+        <attribute name="amount" optional="YES" attributeType="Double" defaultValueString="0.0"/>
+        <attribute name="dateTime" optional="YES" attributeType="Date"/>
+        <attribute name="isDone" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <relationship name="transfer" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="MOTransfer" inverseName="recurrings" inverseEntity="MOTransfer" syncable="YES"/>
+    </entity>
+    <entity name="MOReport" representedClassName="MOReport">
+        <attribute name="endDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="period" optional="YES" attributeType="Integer 16" defaultValueString="0"/>
+        <attribute name="representation" optional="YES" attributeType="Integer 16" defaultValueString="0"/>
+        <attribute name="startDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="setting" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="MOSetting" inverseName="report" inverseEntity="MOSetting"/>
+    </entity>
+    <entity name="MOSearchSettings" representedClassName="MOSearchSettings" syncable="YES">
+        <attribute name="endDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="searchInAccountAmount" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="searchInAccountName" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="searchInAccountType" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="searchInIncomeAccount" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="searchInIncomeAmount" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="searchInIncomeName" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="searchInPaymentAccount" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="searchInPaymentAmount" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="searchInPaymentCategory" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="searchInPaymentLocation" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="searchInPaymentName" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="startDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="user" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="MOUser" inverseName="searchSettings" inverseEntity="MOUser" syncable="YES"/>
+    </entity>
+    <entity name="MOSetting" representedClassName="MOSetting">
+        <attribute name="currency" optional="YES" attributeType="String"/>
+        <attribute name="defaultColor" optional="YES" attributeType="Binary"/>
+        <attribute name="deleteAfterMonths" optional="YES" attributeType="String"/>
+        <attribute name="language" optional="YES" attributeType="String" defaultValueString="English" syncable="YES"/>
+        <attribute name="monthStartDate" optional="YES" attributeType="String"/>
+        <attribute name="startScreen" optional="YES" attributeType="String" defaultValueString="Home"/>
+        <relationship name="report" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="MOReport" inverseName="setting" inverseEntity="MOReport"/>
+        <relationship name="user" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="MOUser" inverseName="setting" inverseEntity="MOUser"/>
+    </entity>
+    <entity name="MOTransfer" representedClassName="MOTransfer" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="Double" defaultValueString="0.0"/>
+        <attribute name="dateTime" optional="YES" attributeType="Date"/>
+        <attribute name="endDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="isRecurring" optional="YES" attributeType="Boolean"/>
+        <attribute name="location" optional="YES" attributeType="Binary"/>
+        <attribute name="moDescription" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="periodicity" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="account" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="MOAccount" inverseName="accountTransfer" inverseEntity="MOAccount" syncable="YES"/>
+        <relationship name="recurrings" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="MORecurrence" inverseName="transfer" inverseEntity="MORecurrence" syncable="YES"/>
+    </entity>
+    <entity name="MOUser" representedClassName="MOUser">
+        <attribute name="accountNumber" optional="YES" attributeType="String"/>
+        <attribute name="eMail" optional="YES" attributeType="String"/>
+        <attribute name="firstName" optional="YES" attributeType="String"/>
+        <attribute name="isLogged" optional="YES" attributeType="Boolean"/>
+        <attribute name="lastName" optional="YES" attributeType="String"/>
+        <attribute name="nickname" optional="YES" attributeType="String"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+        <attribute name="phoneNumber" optional="YES" attributeType="String"/>
+        <relationship name="accounts" optional="YES" toMany="YES" minCount="1" deletionRule="Cascade" destinationEntity="MOAccount" inverseName="user" inverseEntity="MOAccount"/>
+        <relationship name="categories" optional="YES" toMany="YES" minCount="1" deletionRule="Cascade" destinationEntity="MOCategory" inverseName="user" inverseEntity="MOCategory"/>
+        <relationship name="incomes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="MOIncome" inverseName="user" inverseEntity="MOIncome"/>
+        <relationship name="payments" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="MOPayment" inverseName="user" inverseEntity="MOPayment" syncable="YES"/>
+        <relationship name="searchSettings" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="MOSearchSettings" inverseName="user" inverseEntity="MOSearchSettings" syncable="YES"/>
+        <relationship name="setting" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="MOSetting" inverseName="user" inverseEntity="MOSetting"/>
+    </entity>
+    <elements>
+        <element name="MOAccount" positionX="0" positionY="0" width="0" height="105"/>
+        <element name="MOCategory" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="MOIncome" positionX="0" positionY="0" width="0" height="60"/>
+        <element name="MOPayment" positionX="0" positionY="0" width="0" height="90"/>
+        <element name="MORecurrence" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="MOReport" positionX="0" positionY="0" width="0" height="120"/>
+        <element name="MOSearchSettings" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="MOSetting" positionX="0" positionY="0" width="0" height="180"/>
+        <element name="MOTransfer" positionX="0" positionY="0" width="0" height="195"/>
+        <element name="MOUser" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>

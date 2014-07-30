@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" href="$interface_categories_list_view_controller.html" title="represents the list of entire categories with add and remove possibilities" alt="" coords="7,136,322,312" />
+<area shape="rect" href="$interface_expense_view_controller.html" title="This class is responsible for creating/adding the main fields of outcome/bill." alt="" coords="346,144,511,304" />
+<area shape="rect" href="$interface_bill_view_controller.html" title="BillViewController class. This class is responsible for adding/changeing new bill. After creating new bill,the created bill displays on BillsListViewController." alt="" coords="170,360,445,440" />
+<area shape="rect" href="$interface_outcome_view_controller.html" title="OutcomeViewController class. This class is responsible for adding/changeing new outcome. After creating new outcome,the created outcome displays on OutcomesListTableViewController." alt="" coords="469,360,629,440" />
+</map>

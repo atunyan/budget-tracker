@@ -1,0 +1,7 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="MyBudgetAppDelegate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interface_my_budget_app_delegate.html",tooltip="The delegete class of the MyBudget project."];
+}

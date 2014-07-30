@@ -1,0 +1,12 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{MyBudgetViewController\n|# pageName\l|+ openLoginPage\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node2 [label="{HomeButtonsViewController\n|# numberOfRows\l# buttonNameTagDictionary\l|+ changeButton:\l+ createMainView\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interface_home_buttons_view_controller.html",tooltip="the class is the main view of the MyBudget project. The main buttons are created in this view which a..."];
+  Node3 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node3 [label="{\<BannerViewContainer\>\n||+ showBannerView:animated:\l+ hideBannerView:animated:\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$protocol_banner_view_container-p.html",tooltip="The protocol is responsible for showing and hiding the iAd banner."];
+  Node4 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node4 [label="{\<LoginViewControllerDelegate\>\n||+ didUserLoggedIn\l+ didUserLoggedOut\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$protocol_login_view_controller_delegate-p.html",tooltip="Used for handling functions called from login page."];
+}

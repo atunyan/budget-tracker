@@ -1,0 +1,36 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="MyBudget/MyBudgetHelper.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="MyBudget/AccountDetailViewController.m",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_account_detail_view_controller_8m.html"];
+  Node1 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="MyBudget/AccountViewController.m",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_account_view_controller_8m.html"];
+  Node1 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="MyBudget/ActionManager.m",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_action_manager_8m.html"];
+  Node1 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="MyBudget/DataPickerViewController.m",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_data_picker_view_controller_8m.html"];
+  Node1 -> Node6 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="MyBudget/DurationPickerViewController.m",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_duration_picker_view_controller_8m.html"];
+  Node1 -> Node7 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="MyBudget/IncomeViewController.m",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_income_view_controller_8m.html"];
+  Node1 -> Node8 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="MyBudget/ListView.m",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_list_view_8m.html"];
+  Node1 -> Node9 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="MyBudget/LoginViewController.m",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_login_view_controller_8m.html"];
+  Node1 -> Node10 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="MyBudget/MyBudgetAppDelegate.m",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_my_budget_app_delegate_8m.html"];
+  Node1 -> Node11 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="MyBudget/MyBudgetHelper.m",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_my_budget_helper_8m.html"];
+  Node1 -> Node12 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="MyBudget/PaymentViewController.m",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_payment_view_controller_8m.html"];
+  Node1 -> Node13 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="MyBudget/RegisterViewController.m",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_register_view_controller_8m.html"];
+  Node1 -> Node14 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="MyBudget/TransactionListTableViewController.m",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_transaction_list_table_view_controller_8m.html"];
+  Node1 -> Node15 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="MyBudget/TransferListViewController.m",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_transfer_list_view_controller_8m.html"];
+  Node1 -> Node16 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="MyBudget/TransferViewController.m",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_transfer_view_controller_8m.html"];
+}

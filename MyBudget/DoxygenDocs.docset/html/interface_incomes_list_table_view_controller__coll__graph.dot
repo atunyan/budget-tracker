@@ -1,0 +1,16 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{IncomesListTableViewController\n||}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node2 [label="{RecurranceListViewController\n|# kalViewController\l# dataSource\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interface_recurrance_list_view_controller.html",tooltip="Used for showing list view and calendar for recurring objects."];
+  Node3 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node3 [label="{TransferListViewController\n|+ tableView\l+ isAccountSelected\l+ selectedMonth\l+ filteredItems\l# listOfItems\l# isInEditingMode\l# toolbarHeight\l# transfer\l|+ createAmountLabel:index:\l+ createSubsubTitleLabel:cell:\l+ addTitleAndSubtitle:cell:\l+ addAccountLabelText:cell:\l+ addStatusLabelText:cell:\l+ updateEntity:\l+ filterByMonth\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interface_transfer_list_view_controller.html",tooltip="This is parent class for payment/income lists."];
+  Node4 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node4 [label="{\<TransferViewControllerDelegate\>\n||+ didSavedTransfer:\l+ didDeletedTransfer\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$protocol_transfer_view_controller_delegate-p.html",tooltip="handles operations within transfer view controller"];
+  Node5 -> Node3 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="transfer",arrowtail="open",fontname="Helvetica"];
+  Node5 [label="{MOTransfer\n|+ amount\l+ dateTime\l+ location\l+ name\l+ moDescription\l+ endDate\l+ isRecurring\l+ periodicity\l+ recurrings\l+ account\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interface_m_o_transfer.html",tooltip="Used as parent class for income, payment, account managed objects."];
+  Node6 -> Node2 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="dataSource",arrowtail="open",fontname="Helvetica"];
+  Node6 [label="{TransferDataSource\n|+ itemsSelectedByDay\l+ allItems\l+ rawItems\l|+ initWithItems:\l+ itemsFrom:to:\l+ markedDatesFrom:to:\l+ dataSource\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interface_transfer_data_source.html",tooltip="This class is responsible for displaying all items with Calendar view."];
+}

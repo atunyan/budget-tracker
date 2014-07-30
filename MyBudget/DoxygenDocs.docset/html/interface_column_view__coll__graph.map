@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" href="$interface_representation_view.html" title="Parent class for representation views." alt="" coords="17,248,262,392" />
+<area shape="rect" href="$interface_report.html" title="class represents data source for report preview" alt="" coords="8,8,272,184" />
+<area shape="rect" href="$interface_column_scroll_view.html" title="Used for showing Accounts columns in paging scrolling view." alt="" coords="286,248,473,392" />
+</map>

@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" href="$protocol_banner_view_container-p.html" title="The protocol is responsible for showing and hiding the iAd banner." alt="" coords="8,280,205,376" />
+<area shape="rect" href="$protocol_registration_delegate-p.html" title="The protocol is used to make changes in RegisterViewController class." alt="" coords="229,288,389,368" />
+<area shape="rect" href="$interface_register_view_controller.html" title="The view controller is responsible for the first time registration." alt="" coords="413,264,570,392" />
+<area shape="rect" href="$interface_user_info.html" title="used as User&#39;s table data model" alt="" coords="424,8,560,200" />
+</map>

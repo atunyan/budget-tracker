@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>feedback</key>
+	<array>
+		<string>tarevik@gmail.com</string>
+	</array>
+	<key>Currency</key>
+	<array>
+		<string>Default Currency on this Device</string>
+		<string>Armenian Dram (AMD)</string>
+		<string>United States Dollar (USD)</string>
+		<string>Euro (EUR)</string>
+		<string>Russian Ruble (RUB)</string>
+		<string>British Pound (GBP)</string>
+		<string>Japanese Yen (JPY)</string>
+		<string>Canadian Dollar (CAD)</string>
+		<string>Australlian Dollar (AUD)</string>
+		<string>United Arab Emirates Dirham (AED)</string>
+		<string>Argentine Peso (ARS)</string>
+		<string>Bangladeshi Taka (BDT)</string>
+		<string>Bulgarian Lev (BGN)</string>
+		<string>Bahraini Dinar (BHD)</string>
+		<string>Brunei Dollar (BND)</string>
+		<string>Bolivian Boliviano (BOB)</string>
+		<string>Brazilian Real (BRL)</string>
+		<string>Botswana Pula (BWP)</string>
+		<string>Swiss Franc (CHF)</string>
+		<string>Chilean Peso (CLP)</string>
+		<string>Chinese Yuan (CNY)</string>
+		<string>Colombian Peso (COP)</string>
+		<string>Costa Rican Colon (CRC)</string>
+		<string>Czech Koruna (CZK)</string>
+		<string>Danish Krone (DKK)</string>
+		<string>Dominican Peso (DOP)</string>
+		<string>Algerian Dinar (DZD)</string>
+		<string>Estonian Kroon (EEK)</string>
+		<string>Egyptian Pound (EGP)</string>
+		<string>Honk Kong Dollar (HKD)</string>
+		<string>Honduran Lempira (HNL)</string>
+		<string>Croatian Kuna (HRK)</string>
+		<string>Hungarian Forint (HUF)</string>
+		<string>Indonesian Ruplah (IDR)</string>
+		<string>New Israeli Sheqel (ILS)</string>
+		<string>Indian Rupee (INR)</string>
+		<string>Icelandic Krona (ISK)</string>
+		<string>Jamaican Dollar (JMD)</string>
+		<string>Jordanian Dinar (JOD)</string>
+		<string>Kenyan Shilling (KES)</string>
+		<string>South Korean Won (KRW)</string>
+		<string>Kuwaiti Dinar (KWD)</string>
+		<string>Kazakhstani Tenge (KZT)</string>
+		<string>Lebenese Pound (LBP)</string>
+		<string>Sri Lanka Rupee (LKR)</string>
+		<string>Lithuanian Litas (LTL)</string>
+		<string>Latvian Lats (LVL)</string>
+		<string>Maroccan Dirham (MAD)</string>
+		<string>Macedonian Denar (MKD)</string>
+		<string>Mexican Peso (MXN)</string>
+		<string>Malaysian Ringgit (MYR)</string>
+		<string>Nigerian Naira (NGN)</string>
+		<string>Nicaraguan Cordoba Oro (NIO)</string>
+		<string>Norwegian Krone (NIO)</string>
+		<string>Nepalese Rupee (NPR)</string>
+		<string>New Zealand Dollar (NZD)</string>
+		<string>Omani Rial (OMR)</string>
+		<string>Peruvian Nuevo Sol (PEN)</string>
+		<string>Philippine Peso (PHP)</string>
+		<string>Pakistani Rupee (PKR)</string>
+		<string>Polish Zloty (PLN)</string>
+		<string>Paraguayan Guarani (PYG)</string>
+		<string>Qatari Riyal (QAR)</string>
+		<string>New Romanian Leu (RON)</string>
+		<string>Serbian Dinar (RSD)</string>
+		<string>Saudi Riyal (SAR)</string>
+		<string>Swedish Krona (SEK)</string>
+		<string>Singapore Dollar (SGD)</string>
+		<string>Salvadoran Colon (SVC)</string>
+		<string>Slovak Koruna (SKK)</string>
+		<string>Thai Baht (THB)</string>
+		<string>Tunisian Dinar (TND)</string>
+		<string>New Turkish Lira (TRY)</string>
+		<string>Trinidad and Tobago Dollar (TTD)</string>
+		<string>New Taiwan Dollar (TWD)</string>
+		<string>Tanzanian Shilling (TZS)</string>
+		<string>Ukrainian Hryvnia (UAH)</string>
+		<string>Uruguayan Peso (UYU)</string>
+		<string>Uzbekistan Som (UZS)</string>
+		<string>Venezuela Bolivar Fuerte (VEF)</string>
+		<string>Venezuelan Bolivar (VEB)</string>
+		<string>Vietnamese Dong (VND)</string>
+		<string>CFA Franc BCEAO (XOF)</string>
+		<string>Yemeni Rial (YER)</string>
+		<string>South African Rand (ZAR)</string>
+	</array>
+	<key>Start screen</key>
+	<array>
+		<string>Home</string>
+		<string>Income</string>
+		<string>Payments</string>
+		<string>Account</string>
+		<string>Reports</string>
+		<string>Search</string>
+		<string>Settings</string>
+		<string>Summary</string>
+	</array>
+	<key>Language</key>
+	<array>
+		<dict>
+			<key>English</key>
+			<string>en</string>
+		</dict>
+		<dict>
+			<key>Deutsch</key>
+			<string>de</string>
+		</dict>
+		<dict>
+			<key>Հայերեն</key>
+			<string>hy</string>
+		</dict>
+	</array>
+	<key>Contact Us Yerevan</key>
+	<dict>
+		<key>latitude</key>
+		<real>40.1906</real>
+		<key>longitude</key>
+		<real>44.5046</real>
+	</dict>
+</dict>
+</plist>

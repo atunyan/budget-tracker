@@ -1,0 +1,21 @@
+<map id="G" name="G">
+<area shape="rect" href="$_date_picker_view_controller_8h.html" title="DatePickerViewController.h" alt="" coords="1608,232,1792,258" />
+<area shape="rect" href="$_bill_settings_8h.html" title="BillSettings.h" alt="" coords="21,306,120,333" />
+<area shape="rect" href="$_expense_view_controller_8h.html" title="ExpenseViewController.h" alt="" coords="882,82,1053,109" />
+<area shape="rect" href="$_reminder_info_8h.html" title="ReminderInfo.h" alt="" coords="8,381,120,408" />
+<area shape="rect" href="$_transfer_view_controller_8h.html" title="TransferViewController.h" alt="" coords="884,157,1052,184" />
+<area shape="rect" href="$_categories_list_view_controller_8h.html" title="CategoriesListViewController.h" alt="" coords="1346,157,1549,184" />
+<area shape="rect" href="$_m_o_category_8h.html" title="MOCategory.h" alt="" coords="344,381,450,408" />
+<area shape="rect" href="$_location_info_8h.html" title="LocationInfo.h" alt="" coords="290,232,394,258" />
+<area shape="rect" href="$_map_view_controller_8h.html" title="MapViewController.h" alt="" coords="586,232,730,258" />
+<area shape="rect" href="$_accounts_list_table_view_controller_8h.html" title="AccountsListTableViewController.h" alt="" coords="856,232,1080,258" />
+<area shape="rect" href="$_transfer_protocols_8h.html" title="TransferProtocols.h" alt="" coords="806,381,942,408" />
+<area shape="rect" href="$_m_o_account_8h.html" title="MOAccount.h" alt="" coords="736,306,837,333" />
+<area shape="rect" href="$_data_picker_view_controller_8h.html" title="DataPickerViewController.h" alt="" coords="1104,232,1288,258" />
+<area shape="rect" href="$_m_o_outcome_8h.html" title="MOOutcome.h" alt="" coords="605,306,712,333" />
+<area shape="rect" href="$_m_o_transfer_8h.html" title="MOTransfer.h" alt="" coords="521,381,622,408" />
+<area shape="rect" href="$_transfer_list_view_controller_8h.html" title="TransferListViewController.h" alt="" coords="949,306,1136,333" />
+<area shape="rect" href="$_transfer_data_source_8h_source.html" title="TransferDataSource.h" alt="" coords="966,381,1118,408" />
+<area shape="rect" href="$_category_view_controller_8h.html" title="CategoryViewController.h" alt="" coords="1362,232,1533,258" />
+<area shape="rect" href="$_icon_picker_8h.html" title="IconPicker.h" alt="" coords="1362,306,1456,333" />
+</map>

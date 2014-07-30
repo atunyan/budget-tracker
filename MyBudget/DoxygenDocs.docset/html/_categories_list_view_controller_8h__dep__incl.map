@@ -1,0 +1,15 @@
+<map id="G" name="G">
+<area shape="rect" href="$_expense_view_controller_8h.html" title="MyBudget/ExpenseViewController.h" alt="" coords="1238,82,1470,109" />
+<area shape="rect" href="$_outcome_view_controller_8m.html" title="MyBudget/OutcomeViewController.m" alt="" coords="1984,232,2224,258" />
+<area shape="rect" href="$_bill_view_controller_8m.html" title="MyBudget/BillViewController.m" alt="" coords="1434,232,1637,258" />
+<area shape="rect" href="$_categories_list_view_controller_8m.html" title="MyBudget/CategoriesListViewController.m" alt="" coords="1728,82,1997,109" />
+<area shape="rect" href="$_outcome_view_controller_8h.html" title="MyBudget/OutcomeViewController.h" alt="" coords="1106,157,1341,184" />
+<area shape="rect" href="$_bill_view_controller_8h.html" title="MyBudget/BillViewController.h" alt="" coords="850,157,1050,184" />
+<area shape="rect" href="$_expense_view_controller_8m.html" title="MyBudget/ExpenseViewController.m" alt="" coords="1365,157,1602,184" />
+<area shape="rect" href="$_account_detail_view_controller_8m.html" title="MyBudget/AccountDetailViewController.m" alt="" coords="530,232,797,258" />
+<area shape="rect" href="$_outcomes_list_table_view_controller_8m.html" title="MyBudget/OutcomesListTableViewController.m" alt="" coords="1661,232,1960,258" />
+<area shape="rect" href="$_search_table_view_controller_8m.html" title="MyBudget/SearchTableViewController.m" alt="" coords="821,232,1080,258" />
+<area shape="rect" href="$_transaction_list_table_view_controller_8m.html" title="MyBudget/TransactionListTableViewController.m" alt="" coords="1104,232,1410,258" />
+<area shape="rect" href="$_bills_list_view_controller_8m.html" title="MyBudget/BillsListViewController.m" alt="" coords="277,232,506,258" />
+<area shape="rect" href="$_my_budget_view_controller_8m.html" title="MyBudget/MyBudgetViewController.m" alt="" coords="8,232,253,258" />
+</map>

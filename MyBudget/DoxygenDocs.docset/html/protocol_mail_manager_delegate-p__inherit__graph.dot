@@ -1,0 +1,12 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{\<MailManagerDelegate\>\n||}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node2 [label="{AboutViewController\n|# numberOfColumns\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interface_about_view_controller.html",tooltip="the class is the main view of the MyBudget project. The main buttons are created in this view which a..."];
+  Node1 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node3 [label="{ContactUsViewController\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interface_contact_us_view_controller.html",tooltip="The class contains the information on how the users can contact to the applications&#39; development team..."];
+  Node1 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node4 [label="{SettingsTableViewController\n|+ metadataQuery\l+ delegate\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interface_settings_table_view_controller.html",tooltip="Displays settings list and responsible for settings&#39; configurations."];
+}

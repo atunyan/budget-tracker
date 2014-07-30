@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" href="$_config_manager_8m.html" title="MyBudget/ConfigManager.m" alt="" coords="8,82,197,109" />
+<area shape="rect" href="$_core_data_manager_8m.html" title="MyBudget/CoreData/CoreDataManager.m" alt="" coords="221,82,490,109" />
+<area shape="rect" href="$_settings_table_view_controller_8m.html" title="MyBudget/SettingsTableViewController.m" alt="" coords="514,82,778,109" />
+</map>

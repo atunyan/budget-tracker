@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" href="$interface_expense_view_controller.html" title="This class is responsible for creating/adding the main fields of outcome/bill." alt="" coords="1061,1146,1226,1306" />
+<area shape="rect" href="$interface_transfer_view_controller.html" title="TransferViewController class. This class is responsible for creating/adding the main fields of outcom..." alt="" coords="584,426,994,1082" />
+<area shape="rect" href="$protocol_date_picker_view_controller_delegate-p.html" title="the DatePickerViewControllerDelegate. Responsible for date selection." alt="" coords="8,266,248,346" />
+<area shape="rect" href="$protocol_location_controller_delegate-p.html" title="delegate for location functionalities" alt="" coords="272,266,469,346" />
+<area shape="rect" href="$protocol_data_picker_view_controller_delegate-p.html" title="the DataPickerViewControllerDelegate. Responsible for date selection." alt="" coords="493,266,778,346" />
+<area shape="rect" href="$protocol_accounts_list_table_view_controller_delegate-p.html" title="the AccountsListTableViewControllerDelegate." alt="" coords="802,266,1085,346" />
+<area shape="rect" href="$interface_reminder_info.html" title="The class contains the info on Reminder, such as reminder time, whether alerts and/or budgets should ..." alt="" coords="1109,250,1256,362" />
+<area shape="rect" href="$interface_m_o_transfer.html" title="Used as parent class for income, outcome, bill, account managed objects." alt="" coords="1293,7,1410,199" />
+<area shape="rect" href="$interface_m_o_account.html" title="MOAccount class. This class keeps all created accounts." alt="" coords="1390,250,1500,362" />
+<area shape="rect" href="$protocol_category_list_view_controller_delegate-p.html" title="}" alt="" coords="1018,714,1269,794" />
+<area shape="rect" href="$interface_location_info.html" title="Used for locationing." alt="" coords="1293,674,1480,834" />
+<area shape="rect" href="$interface_m_o_category.html" title="The class keeps the properties of Core Data Category, which are describing category, such as category&#39;s index, name." alt="" coords="1504,658,1658,850" />
+</map>

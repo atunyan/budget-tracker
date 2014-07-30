@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" href="$_account_detail_view_controller_8m.html" title="MyBudget/AccountDetailViewController.m" alt="" coords="7,82,274,109" />
+<area shape="rect" href="$_bill_view_controller_8m.html" title="MyBudget/BillViewController.m" alt="" coords="298,82,501,109" />
+<area shape="rect" href="$_data_picker_view_controller_8m.html" title="MyBudget/DataPickerViewController.m" alt="" coords="525,82,775,109" />
+<area shape="rect" href="$_duration_picker_view_controller_8m.html" title="MyBudget/DurationPickerViewController.m" alt="" coords="799,82,1071,109" />
+<area shape="rect" href="$_expense_view_controller_8m.html" title="MyBudget/ExpenseViewController.m" alt="" coords="1095,82,1333,109" />
+<area shape="rect" href="$_my_budget_helper_8m.html" title="MyBudget/MyBudgetHelper.m" alt="" coords="1357,82,1554,109" />
+<area shape="rect" href="$_transfer_view_controller_8m.html" title="MyBudget/TransferViewController.m" alt="" coords="1578,82,1813,109" />
+</map>

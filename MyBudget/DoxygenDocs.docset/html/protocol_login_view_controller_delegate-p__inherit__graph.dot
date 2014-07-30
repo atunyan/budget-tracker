@@ -1,0 +1,10 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{\<LoginViewControllerDelegate\>\n||+ didUserLoggedIn\l+ didUserLoggedOut\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node2 [label="{MyBudgetViewController\n|# pageName\l|+ openLoginPage\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interface_my_budget_view_controller.html",tooltip="the class is the main view of the MyBudget project. All the related pages are available from this vie..."];
+  Node1 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node3 [label="{SettingsTableViewController\n|+ metadataQuery\l+ delegate\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interface_settings_table_view_controller.html",tooltip="Displays settings list and responsible for settings&#39; configurations."];
+}

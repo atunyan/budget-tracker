@@ -1,0 +1,13 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="MOTransfer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interface_m_o_transfer.html",tooltip="Used as parent class for income, payment, account managed objects."];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="MOAccount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interface_m_o_account.html",tooltip="MOAccount class. This class keeps all created accounts."];
+  Node1 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="MOIncome",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interface_m_o_income.html",tooltip="The class keeps the properties of Core Data Income, which are describing income, such as income&#39;s amo..."];
+  Node1 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="MOPayment",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interface_m_o_payment.html",tooltip="The Payment class keeps the properties of the Payment. The class inherits from Transfer."];
+}

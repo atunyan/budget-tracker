@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" href="$_account_detail_view_controller_8m.html" title="MyBudget/AccountDetailViewController.m" alt="" coords="8,82,274,109" />
+<area shape="rect" href="$_outcomes_list_table_view_controller_8m.html" title="MyBudget/OutcomesListTableViewController.m" alt="" coords="298,82,597,109" />
+<area shape="rect" href="$_outcome_view_controller_8m.html" title="MyBudget/OutcomeViewController.m" alt="" coords="621,82,861,109" />
+<area shape="rect" href="$_search_table_view_controller_8m.html" title="MyBudget/SearchTableViewController.m" alt="" coords="885,82,1144,109" />
+<area shape="rect" href="$_transaction_list_table_view_controller_8m.html" title="MyBudget/TransactionListTableViewController.m" alt="" coords="1168,82,1474,109" />
+</map>

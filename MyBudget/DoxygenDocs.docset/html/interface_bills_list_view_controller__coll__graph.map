@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" href="$interface_recurrance_list_view_controller.html" title="Used for showing list view and calendar for recurring objects." alt="" coords="129,602,326,682" />
+<area shape="rect" href="$interface_transfer_list_view_controller.html" title="This is parent class for outcome/income lists." alt="" coords="128,231,328,551" />
+<area shape="rect" href="$protocol_transfer_view_controller_delegate-p.html" title="handles operations within transfer view controller" alt="" coords="8,39,232,135" />
+<area shape="rect" href="$interface_transfer_data_source.html" title="This class is responsible for displaying all items with Calendar view." alt="" coords="256,7,416,167" />
+</map>
